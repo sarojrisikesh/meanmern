@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 require("dotenv").config();
 
-// Middleware
+// **********Middleware**************
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -13,7 +13,7 @@ app.use(cors({
     credentials: true
 }));
 
-// Routes
+// ******Routes*************
 const userRoutes = require('./routes/userRoutes');
 app.use('/api/user', userRoutes);
 
