@@ -1,0 +1,10 @@
+1. To get the branch name which u r working => git branch
+
+2. to go to any specif branch => git checkout <branchname>
+
+
+3. to create new branch branch => git checkout <branchname>
+
+4. to check ststus of changes or hh in which branch =>git status
+
+5 first time push file =>git push --set-upstream origin gittutorial
